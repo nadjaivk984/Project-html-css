@@ -1,0 +1,645 @@
+*{
+      
+    box-sizing: border-box;
+}
+@font-face {
+ font-family: "Roboto";
+ src: url("Roboto-Regular.ttf");
+}
+body{
+ margin:0;
+ padding:0;
+ font-family: "Roboto";
+}
+.glavni{
+    width:80%;
+   margin:0 auto;
+  
+   
+}
+
+
+.ceonav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.naslovilista ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+}
+nav ul li{
+    padding:5px;
+}
+.naslovilista h1{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+   }
+   .naslovilista span{
+
+    color: rgb(236, 141, 31);
+    border:3px solid grey;
+     border-right: hidden;
+   
+   }
+   .naslovilista ul{
+     text-align: center;
+     margin:10px auto;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: lightskyblue;
+   
+   padding:20px 150px;
+  
+   
+    
+   
+}
+.center{
+    background-image: url(banner3.jpg);
+    background-size: cover;
+    width:100%;
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .center p{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+   }
+   nav p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 55px;
+    padding:10px;
+    text-align: center;
+    letter-spacing: 2px;
+   
+    display:flex;
+    align-items: center;
+    
+   
+   }
+   input[type="button"]{
+    padding:10 30px;
+    width:30%;
+    border-radius: 20px;
+    border:none;
+    color:white;
+    background-color:rgb(69, 132, 204);
+    text-align: center;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+    
+   } 
+   .line{
+ 
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    border-top: 2px solid black;
+    margin:0px 12px;
+   }.square{
+      font-size: 30px;
+      display: inline-block;
+      position: relative;
+    top:-9px;
+   }
+   
+   
+   .zvezdica{
+    text-align: center;
+    
+   }
+   .squareandline{
+    text-align: center;
+   }
+   .textandlist{
+       display:flex;
+      flex-wrap:wrap;
+   }
+   .textandlist img{
+       width:90%;
+   }
+   .paragraf ul li{
+    list-style: url(arrow_bullet.png);
+    padding:10px;
+    }
+    .paragraf h3{
+     color:rgb(69, 132, 204);
+    }
+    .paragraf1 h3{
+        color:rgb(69, 132, 204);
+       }
+       .paragraf1 ul li{
+        list-style: url(arrow_bullet.png);
+        padding:10px;
+        }
+  .paragraf{
+      width:90%;
+  }
+  .paragraf1{
+    width:90%;
+}
+article{
+    width:100%;
+    background-color: lightskyblue;
+    padding:20px;
+    margin-bottom: 10px;
+    color:white;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    width: 80%;
+    margin: 0 auto;
+    
+   }
+   .picandname img{
+    border-radius:50px;
+    border:2px solid white;
+    margin-right:20px;
+    width:20%;
+   }
+   .name h4{
+    margin:0px;
+    color:black;   
+   }
+   .name p{
+    color: white;
+    margin:0px;
+   }
+   .name{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .getintouch{
+       display:flex;
+       flex-wrap:wrap;
+   }
+   .zeleni{
+    background-color: rgb(29, 202, 52);
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:250px;
+   
+   }
+   .zeleni p{
+    color:white;
+    text-align: center;
+    margin:5px;
+   
+   }
+   .zeleni h2{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   .rozi{
+    background-color:rgb(230, 98, 142);
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:250px;
+   
+   }
+   .connect img{
+    margin:10px;
+    
+   
+   }
+   .connect {
+    padding:10px;
+   }
+   .rozi h2{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+   
+   }
+   .plavi{
+    background-color: rgba(5, 96, 214, 0.651);
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:250px;
+   
+   }
+   .plavi p{
+    color:white;
+    text-align: center;
+    margin:5px;
+   
+   }
+   .plavi h2{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   .kuca{
+    width:50%;
+    background-color: lightskyblue;
+    height:250px;
+   
+   }
+   .kuca img{
+    margin:0px;
+    width:70%;
+    margin-left:30px;
+    
+   }
+   iframe{
+    width:100%;
+   }
+   form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:5px;
+   
+   }
+   input[type=text]{
+    width:100%;
+    padding:15px;
+    margin:5px;
+   
+   
+   }
+   input[type=Email]{
+    width:100%;
+    padding:15px;
+    margin:5px;
+   
+    
+   }
+   input[type=number]{
+    width:100%;
+    padding:15px;
+    margin:5px;
+    
+    
+   }
+   textarea{
+    width:100%;
+    height:300px;
+    margin:10px 0px 10px 0px;
+    margin:5px;
+   
+    
+   }
+   #submit{
+    background-color: rgb(255, 166, 0);
+    padding:15px;
+    color: white;
+    border:none;
+    width:15%;
+    margin:5px;
+    
+    
+   }
+   footer{
+    background-color: rgb(34, 31, 31);
+    color: white;
+    width:100%;
+   }
+   footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+    
+   }
+   footer ul li{
+    padding:5px;
+   }
+   footer ul li a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   footer p{
+    text-align: center;
+    font-size:12px;
+   }
+   @media screen and (min-width: 768px){
+    form{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+       
+       }
+    .inputi{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    input[type=text]{
+        width:30%;
+        padding:15px;
+        margin:0px;
+       
+       
+       }
+       input[type=Email]{
+        width:30%;
+        padding:15px;
+        margin:0px;
+       
+        
+       }
+       input[type=number]{
+        width:30%;
+        padding:15px;
+        margin:0px;
+
+   }
+   textarea{
+    width:100%;
+    height:300px;
+    margin:10px 0px 10px 0px;
+   
+    
+   }
+   article{
+    width:40%;
+    margin:10px;
+   
+}
+.container{
+    
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        width: 100%;
+        margin: 0;
+        
+    
+
+}
+  .paragraf{
+    width:45%;
+   
+   }
+   .paragraf1{
+    width: 100%;
+    margin:20px;
+   
+   }
+   
+   .textandlist img{
+   width:45%;
+   margin:0 15px;
+   
+   }
+   .textandlist{
+    
+    margin-bottom:50px;
+    width:100%;
+    
+   
+   
+   }
+   nav{
+       display:flex;
+       background-image: url(banner3.jpg);
+       background-size: cover;
+       width:100%;
+      height:70%;
+
+   }
+   .center{
+    background-image: none;
+  
+    
+   }
+   .naslovilista ul li{
+       font-size: 14px;
+   }
+   .naslovilista ul{
+    text-align: center;
+   list-style: none;
+   color: white;
+   text-transform: uppercase;
+   background:none;
+   padding:5px;
+
+   margin:0px;
+   padding:20px;
+
+   
+  
+   }
+
+
+.naslovilista span{
+
+    color: rgb(236, 141, 31);
+    border:3px solid white;
+     border-right: hidden;
+   
+   }
+   .naslovilista h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 23px;
+   }
+   .naslovilista{
+    display:flex;
+     align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding:0px;
+}
+.naslovilista ul{
+   
+        display:flex;
+        padding:10px;
+     
+       
+    
+}
+.naslovilista{
+     justify-content: space-between;
+     width:100%;
+}
+nav{
+    height:45%;
+}
+
+.ceonav{
+    margin:0 auto;
+     
+   
+     width:90%;
+ }
+ input[type="button"]{
+     width:20%;
+     margin-top:0px;
+     padding:15;
+ }
+.kuca img{
+    width:60%;
+}
+.ceonav{
+    margin:0 auto;
+     justify-content: space-evenly;
+      
+     width:80%;
+ }
+ .center p{
+     margin-bottom:5px;
+     margin-top:0px;
+     font-size: 25px;
+     font-weight: bold;
+     letter-spacing: 2px;
+     padding:20px;
+     text-align: center;
+ }
+ .naslovilista{
+    display:flex;
+     align-items: center;
+      justify-content: space-between;
+       width:100%;
+       padding:10px;
+   }
+   
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+    article{
+        flex-basis: 30%;
+        margin:10px;
+        
+        
+        } 
+       nav{
+        width:100%;
+        height:70%; 
+       }
+     
+       .paragraf{
+        width:23%;
+       
+       
+       }
+       
+      
+       .paragraf1{
+        width:23%;
+       
+       
+       }
+       .textandlist img{
+        width:23%;
+        margin:0 15px;
+        }
+        .textandlist{
+            justify-content: center;
+        }
+        .zeleni{
+            width:25%;
+        } 
+        .rozi{
+            width:25%;
+        }
+        .plavi{
+            width:25%;
+        }
+        .kuca{
+            width:25%;
+        }
+        .naslovilista ul li{
+            padding:30px;
+            
+        }
+        .naslovilista{
+            display:flex;
+         align-items: center;
+           justify-content: space-between;
+            width:100%;
+            padding:20px;
+        }
+        .ceonav{
+            margin:0 auto;
+             justify-content: space-between;
+             align-items: flex-start;
+             width:80%;
+         }
+         .naslovilista h1{
+             font-size: 40px;
+         }
+         .center{
+        
+              
+                width:100%;
+                height:100%;
+             
+               }
+               .center p{
+                font-size: 45px;
+                padding:20px;
+                letter-spacing: 2px;
+                text-align: center;
+                font-weight: bold;
+                
+               }
+               input[type="button"]{
+            
+                width:15%;
+                
+               
+                
+               } 
+               input[type="button"]{
+                width:15%;
+              
+            }
+            .naslovilista h1{
+                text-transform: uppercase;
+                color: white;
+                font-size: 45px;
+               }
+           
+           .kuca img{
+               width:60%;
+           }
+           footer ul li{
+            padding:15px;
+           }
+           footer{
+            padding:10px;
+           }
+           .naslovilista ul li{
+            font-size: 16px;
+        }
+       
+         }
+        
